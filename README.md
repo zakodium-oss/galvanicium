@@ -1,6 +1,6 @@
 # Galvanicium
 
-<https://app.galvanicium.com>
+<https://app.galvanicium.org>
 
 Galvanium is a web application made to visualize and superimpose
 
