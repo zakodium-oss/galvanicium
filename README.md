@@ -4,7 +4,7 @@
 
 Galvanium is a web application made to visualize and superimpose
 
-- [From Biologic file format](https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json)
+- [From BioLogic file format](https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json)
 
 ## Design of the application
 
