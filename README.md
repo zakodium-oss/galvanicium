@@ -8,6 +8,8 @@ Galvanium is a web application made to visualize and superimpose
 
 ## Design of the application
 
+The source code of Galvanicium is available on GitHub: <https://github.com/zakodium-oss/galvanicium-app>.
+
 The Galvanicium application is build around 4 other open-source projects that we are developing and maintaining:
 
 - [react-plot](https://github.com/zakodium-oss/react-plot): a ReactJS component designed to plot scientific data. You may be interested to check the interactive and [extensive documentation](https://react-plot.zakodium.com).
