@@ -6,6 +6,7 @@ Galvanicium is a web application made to display and superimpose measurements
 from potentiostats and battery cyclers.
 
 The application supports the following file formats:
+
 - [BioLogic](https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json)
 
 ## Design of the application
@@ -30,7 +31,11 @@ The second way to load the data is from a web service.
 
 ### Loading the data form a web service
 
-The web service should provide 2 routes:
+It is possible to show directly the experimental data using the following kind of URL:
+
+[https://app.galanicium.org/#?filelist=filelistURL](https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json)
+
+The web service that serves the filelistURL should provide 2 routes:
 
 1. A route that provides the list of file to load
 2. A route that returns the file
@@ -80,15 +85,26 @@ Once the TOC is loaded, queries will be made to load all the files for which the
 
 `curl https://zakodium-oss.github.io/analysis-dataset/data/format/biologic/jdb11-4/jdb11-4.mpr`
 
+You can try the integration using this example: [https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json](https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json)
+
 ## Using Galvanicium
 
 ### Select one or many measurements
 
-### Changing colors
+From the list of measurements, you can:
+
+- Select one or many measurements
+- Change the color of individual measurement
+- Show / hide specific measurements
 
 ### Zoom in / out
 
-## General
+Zoom in is achieved by drawing a rectangle, zoom out by clicking twice.
+
+### Measurements info
+
+During the importation of the files, galvanicium tries to keep all the variables and preselect some of them depending on the analytical technique.
+If you prefer to show other variables it is possible to select them in the bottom left of the screen.
 
 ### Funding
 
