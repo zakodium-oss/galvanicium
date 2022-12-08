@@ -2,9 +2,11 @@
 
 <https://app.galvanicium.org>
 
-Galvanium is a web application made to visualize and superimpose
+Galvanicium is a web application made to display and superimpose measurements
+from potentiostats and battery cyclers.
 
-- [From BioLogic file format](https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json)
+The application supports the following file formats:
+- [BioLogic](https://app.galvanicium.org/#?filelist=https%3A%2F%2Fzakodium-oss.github.io%2Fanalysis-dataset%2Fbigmap.json)
 
 ## Design of the application
 
